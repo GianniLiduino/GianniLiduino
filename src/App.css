@@ -67,6 +67,11 @@ header {
   z-index: 1;
 } */
 
+.nav {
+  display: flex;
+  flex-direction: row;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -76,6 +81,26 @@ header {
 
 .navbar li {
   margin: 0px 10px;
+}
+
+.languageList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+}
+
+.languageList li {
+  align-items: center;
+}
+
+#iconLanguage {
+  width: 25px;
+  filter: grayscale(1);
+}
+
+#iconLanguage.active {
+  filter: grayscale(0);
 }
 
 .container {

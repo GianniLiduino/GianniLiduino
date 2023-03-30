@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <Header scrollStatus={changeHeaderColor} />
+      <Header scrollStatus={changeHeaderColor} language="pt-br" />
       <main>
         <Profile />
         <Projects />
